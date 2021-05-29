@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="title"></div>
+        <div id="description"></div>
+        <div id="form-container">
+            <form action="" id="survey-form">
+                <div class="section"><label for="name"><input type="text" name="name" id="name" >name</label></div>
+                <div class="section"><label for="email"><input type="text" name="email" id="email">email</label></div>
+                <div class="section"><label for="age"><input type="number" min="18"  name="age" id="age">Age</label></div>
+                <div class="section">
+                    <select name="dropdown-menu" id="dropdown-menu">
+                            <option value="opt1" id="option1" disabled selected>Select an option</option>
+                            <option value="opt1" id="option1">option 1</option>
+                            <option value="opt2" id="option2">option 2</option>
+                            <option value="opt3" id="option3">option 3</option>
+                            <option value="opt4" id="option4">option 4</option>
+                            <option value="opt5" id="option5">option 5</option>
+                    </select>
+                </div>
+                <div class="section">
+                    <label for="radio-option-1"><input type="radio" name="option-selected" id="radio-option-1">option 1</input></label><br>
+                    <label for="radio-option-2"><input type="radio" name="option-selected" id="radio-option-2">option 2</input></label><br>
+                    <label for="radio-option-3"><input type="radio" name="option-selected" id="radio-option-3">option 3</input></label><br>
+                </div>
+                <div class="section">
+                    <label for="checkbox-option-1"><input type="checkbox" name="checkbox-option-1" id="checkbox-option-1">option 1</input></label><br>
+                    <label for="checkbox-option-2"><input type="checkbox" name="checkbox-option-2" id="checkbox-option-2">option 2</input></label><br>
+                    <label for="checkbox-option-3"><input type="checkbox" name="checkbox-option-3" id="checkbox-option-3">option 3</input></label><br>
+                </div>
+                <div class="section">
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Insert your comment here" ></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
