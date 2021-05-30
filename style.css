@@ -59,10 +59,18 @@ body {
 
 .text-input {
     display: block;
+    margin-top: 5px;
     width: 100%;
     height: 30px;
-    border-radius: 1px;
+    border-radius: 7px;
+    font-size: 18px;
 
+}
+
+.labels-input-fields {
+    font-size: "";
+    color:snow;
+    margin-top: 15px;
 }
 
 #dropdown-menu {
@@ -71,6 +79,7 @@ body {
     margin-right: auto;
     height:35px;
     width: 101%;
+    border-radius: 7px;
     background-color: white;
     font-weight: 600;
 }
@@ -80,3 +89,4 @@ body {
     flex-direction: column;
     color:snow;
 }
+

@@ -20,12 +20,12 @@
             </div>
             <div id="form-container">
                 <form action="" id="survey-form">
-                    <div class="section"><label for="name">Name<input class="text-input" type="text" name="name" id="name" ></label></div>
-                    <div class="section"><label for="email">Email<input class="text-input" type="text" name="email" id="email"></label></div>
-                    <div class="section"><label for="age">Age<input  class="text-input" type="number" min="18"  name="age" id="age"></label></div>
+                    <div class="section labels-input-fields"><label id="name-label" for="name">Name<input class="text-input" type="text" name="name" id="name" ></label></div>
+                    <div class="section labels-input-fields"><label id="email-label" for="email">Email<input class="text-input" type="email" name="email" id="email"></label></div>
+                    <div class="section labels-input-fields"><label id="age-label" for="age">Age<input  class="text-input" type="number" min="18" max="99" name="age" id="age"></label></div>
                     <p>What technology would you like to learn?</p>
                     <div class="section">
-                        <select name="dropdown-menu" id="dropdown-menu">
+                        <select name="technology" id="dropdown-menu">
                                 <option value="opt1" id="option1" disabled selected>Select an option</option>
                                 <option value="opt1" id="option1">C++</option>
                                 <option value="opt2" id="option2">Python</option>
