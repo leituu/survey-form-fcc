@@ -12,20 +12,20 @@
 <body>
     <div id="layer">
         <div class="layer" id="main-container">
-            <div id="title">
-                <h1>Let us know a little bit more about you</h1>
+            <div>
+                <h1 id="title">Survey Project</h1>
             </div>
-            <div id="description">
-                <p>Here is the description of my survey</p>
+            <div>
+                <p id="description">Take a few seconds of your time and help us to improve!</p>
             </div>
             <div id="form-container">
                 <form action="" id="survey-form">
-                    <div class="section labels-input-fields"><label id="name-label" for="name">Name<input class="text-input" type="text" name="name" id="name" ></label></div>
-                    <div class="section labels-input-fields"><label id="email-label" for="email">Email<input class="text-input" type="email" name="email" id="email"></label></div>
-                    <div class="section labels-input-fields"><label id="age-label" for="age">Age<input  class="text-input" type="number" min="18" max="99" name="age" id="age"></label></div>
+                    <div class="section labels-input-fields"><label id="name-label" for="name">Name<input class="text-input" type="text" name="name" id="name" placeholder="Insert your Name" required ></label></div>
+                    <div class="section labels-input-fields"><label id="email-label" for="email">Email<input class="text-input" type="email" name="email" id="email" placeholder="Insert your Email" required></label></div>
+                    <div class="section labels-input-fields"><label id="number-label" for="number">Age<input  class="text-input" type="number" min="18" max="99" name="age" id="number" placeholder="Insert your Age" required></label></div>
                     <p>What technology would you like to learn?</p>
                     <div class="section">
-                        <select name="technology" id="dropdown-menu">
+                        <select name="technology" id="dropdown">
                                 <option value="opt1" id="option1" disabled selected>Select an option</option>
                                 <option value="opt1" id="option1">C++</option>
                                 <option value="opt2" id="option2">Python</option>
@@ -43,18 +43,18 @@
                     </div>
                     <p>Which way of study does it fit the best to you?</p>
                     <div class="section flex-option">
-                        <label for="checkbox-option-1"><input type="checkbox" name="checkbox-option-1" id="checkbox-option-1"> Reading</input></label><br>
-                        <label for="checkbox-option-2"><input type="checkbox" name="checkbox-option-2" id="checkbox-option-2"> Watching videos</input></label><br>
-                        <label for="checkbox-option-3"><input type="checkbox" name="checkbox-option-3" id="checkbox-option-3"> Working with examples</input></label><br>
-                        <label for="checkbox-option-3"><input type="checkbox" name="checkbox-option-3" id="checkbox-option-3"> Working in your own projects</input></label><br>
-                        <label for="checkbox-option-3"><input type="checkbox" name="checkbox-option-3" id="checkbox-option-3"> Working with isolated examples</input></label><br>
+                        <label for="checkbox-option-1"><input type="checkbox" name="checkbox-option-1" id="checkbox-option-1" value="reading"> Reading</input></label><br>
+                        <label for="checkbox-option-2"><input type="checkbox" name="checkbox-option-2" id="checkbox-option-2" value="videos"> Watching videos</input></label><br>
+                        <label for="checkbox-option-3"><input type="checkbox" name="checkbox-option-3" id="checkbox-option-3" value="examples"> Working with examples</input></label><br>
+                        <label for="checkbox-option-4"><input type="checkbox" name="checkbox-option-4" id="checkbox-option-4" value="projects"> Working in your own projects</input></label><br>
+                        <label for="checkbox-option-5"><input type="checkbox" name="checkbox-option-5" id="checkbox-option-5" value="isolated examples"> Working with isolated examples</input></label><br>
                     </div>
                     <p>Help us to improve our content! Leave us a comment</p>
                     <div class="section">
                         <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Insert your comment here" ></textarea>
                     </div>
                     <div class="section">
-                        <button type="submit"> Submit!</button>
+                        <button id="submit" type="submit"> Submit!</button>
                     </div>
                 </form>
             </div>

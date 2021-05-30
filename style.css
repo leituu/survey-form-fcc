@@ -8,8 +8,8 @@ body {
 }
 #layer {
     background-color: rgba(166, 125, 255, 0.3);
-    /* height: 100%; */
-    margin:0    ;
+    height: 100%;
+    margin:0;
 }
 #main-container {
     max-width: 700px;
@@ -26,11 +26,17 @@ body {
 #main-container h1 {
     text-align: center;
     margin-top: 0;
-    color:rgba(228, 221, 255, 0.685)
+    color:rgba(228, 221, 255, 0.685);
+}
+
+#title {
+    font-size: 45px;
+    font-weight: 400;
 }
 
 #main-container p {
     text-align: center;
+    color: snow;
 }
 
 #form-container {
@@ -55,6 +61,9 @@ body {
 #comment {
     resize:none;
     width: 100%;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-top: 5px;
 }
 
 .text-input {
@@ -73,7 +82,7 @@ body {
     margin-top: 15px;
 }
 
-#dropdown-menu {
+#dropdown {
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -90,3 +99,17 @@ body {
     color:snow;
 }
 
+
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    position:relative;
+    left: 3px;
+    padding: 10px 5px;
+    
+}
+
+label {
+    margin-top: 5px;
+}
